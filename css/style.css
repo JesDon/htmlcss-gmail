@@ -1,0 +1,68 @@
+body {
+  background-image: url(../img/legno.jpg)
+}
+
+#container{
+  width: 95%;
+  margin: auto;
+}
+
+#header-search{
+  border-top: 2px groove #fff;
+  border-bottom: 2px groove #fff;
+  margin-bottom: 7px;
+  padding-top: 10px;
+}
+
+#logo{
+  height: 70px;
+  vertical-align: middle;
+}
+
+#logo-text{
+  display: inline;
+  color: #fff;
+}
+
+#unread{
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+#unread span{
+  display: inline-block;
+  background-color: orange;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%
+}
+
+.email{
+  background: lightgrey;
+  border: 1px solid #000;
+}
+
+main span{
+  color: grey;
+}
+
+.read{
+  background: whitesmoke;
+}
+
+footer{
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  border-top: 2px groove #fff;
+  padding-top: 7px;
+  margin-top: 7px;
+}
+
+footer span{
+  font-size: 15px;
+  font-style: italic;
+}
